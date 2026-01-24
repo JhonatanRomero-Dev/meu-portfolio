@@ -12,7 +12,7 @@ import React from 'react';
           <div className="flex justify-center space-x-8">
             <ContactLink href="mailto:jhonata555romero@gmail.com" icon={<Mail />} label="Email" />
             <ContactLink href="https://www.linkedin.com/in/jhonatan-romero-20983b2ba/" icon={<Linkedin />} label="LinkedIn" />
-            <ContactLink href="https://github.com/Jhondev-404" icon={<Github />} label="GitHub" />
+            <ContactLink href="https://github.com/JhonatanRomero-Dev" icon={<Github />} label="GitHub" />
           </div>
         </SectionWrapper>
       );
