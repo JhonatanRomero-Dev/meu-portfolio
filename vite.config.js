@@ -182,7 +182,7 @@ logger.error = (msg, options) => {
 }
 
 export default defineConfig({
-  base: '/meu-portfolio/',   // 🔴 ESSENCIAL
+  base: process.env.NODE_ENV === 'production' ? '/meu-portfolio/' : '/',
   customLogger: logger,
   plugins: [react(), addTransformIndexHtml],
   server: {
