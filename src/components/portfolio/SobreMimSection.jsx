@@ -14,7 +14,7 @@ import React from 'react';
           transition={{ duration: 0.8 }}
         >
           <Avatar className="w-40 h-40 mb-8 border-4 border-white shadow-lg">
-            <AvatarImage  src="src/components/portfolio/img/fotoparaolinkdi.jpg"  alt="Foto perfil" /*Aqui para alterar a foto */
+            <AvatarImage  src="src/components/portfolio/img/fotoprofisional.jpeg" /*Aqui para alterar a foto */
             className="avatar-img"/>
               
 
